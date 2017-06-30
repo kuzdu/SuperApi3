@@ -1,0 +1,22 @@
+{
+  "name": "SuperApi2",
+  "version": "0.1.0",
+  "summary": "A short description of SuperApi2.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kuzdu/SuperApi2",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kuzdu": "michael.rothkegel@invers.com"
+  },
+  "source": {
+    "git": "https://github.com/kuzdu/SuperApi2.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SuperApi2/Classes/**/*"
+}

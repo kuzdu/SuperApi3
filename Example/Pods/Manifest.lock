@@ -1,0 +1,16 @@
+PODS:
+  - SuperApi2 (0.1.0)
+
+DEPENDENCIES:
+  - SuperApi2 (from `../`)
+
+EXTERNAL SOURCES:
+  SuperApi2:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SuperApi2: af4534dd9294d8ec9013bb6afc785d2b911bad64
+
+PODFILE CHECKSUM: c70248cdf9fc4ca73159aa37a2070db180226e0e
+
+COCOAPODS: 1.2.0.rc.1

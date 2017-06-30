@@ -1,0 +1,6 @@
+framework module SuperApi2 {
+  umbrella header "SuperApi2-umbrella.h"
+
+  export *
+  module * { export * }
+}
