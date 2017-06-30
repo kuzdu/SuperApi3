@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SuperApi2_Example' do
+  pod 'SuperApi2', :path => '../'
+
+  target 'SuperApi2_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
