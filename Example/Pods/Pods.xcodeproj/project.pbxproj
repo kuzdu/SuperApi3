@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		032C0615C3E277B75220B4C1419ACAB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4CA4D0411F06912400F588FF /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA4D0401F06912400F588FF /* TestClass.swift */; };
 		65EF76FFD18F79D5E599B3CE02CF6E71 /* SuperApi2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D26D55323F65F677EF5A765B4B85C9E /* SuperApi2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F2B7A7CD83241F24F48E661F2E6F713 /* SuperApi2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2009E0D49439F84505C96C77E65846 /* SuperApi2-dummy.m */; };
 		846CA3693CCFC49A64313DB8C0506B58 /* Pods-SuperApi2_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6461D48DA5B153165399AA78DA375C1E /* Pods-SuperApi2_Example-dummy.m */; };
 		93D140CA008C23FEBACED9F07DD521CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		C95491882BF5959B611CD6C83F67E111 /* Pods-SuperApi2_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A35C1043CDBBE3DC7B746491AA35FF8B /* Pods-SuperApi2_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DFE53286C16266946C1055C615C84848 /* Pods-SuperApi2_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D7221406AC55A5740A80676BC905955 /* Pods-SuperApi2_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBADAC5A7FE19F6A4749078EA3A79D83 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6F180715480C37CE3B519CC13740D4 /* ReplaceMe.swift */; };
 		ED92F4A1F01B142FF3F4CFA74BBD120F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		F5B17E121D6764E9910F9D5D520B3D30 /* Pods-SuperApi2_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B92634A1BBC992352FC729529BD3A64 /* Pods-SuperApi2_Tests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -32,14 +32,14 @@
 /* Begin PBXFileReference section */
 		0B92634A1BBC992352FC729529BD3A64 /* Pods-SuperApi2_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SuperApi2_Tests-dummy.m"; sourceTree = "<group>"; };
 		0EAB50BB3E3FF8B1D25DC7FD2CE004FD /* Pods-SuperApi2_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SuperApi2_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		12B6415A8C01A0D705C24F55D76AE111 /* SuperApi2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SuperApi2.framework; path = SuperApi2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12B6415A8C01A0D705C24F55D76AE111 /* SuperApi2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SuperApi2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A2009E0D49439F84505C96C77E65846 /* SuperApi2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SuperApi2-dummy.m"; sourceTree = "<group>"; };
 		2A2E81515515F5F7CB4E6EC93C051A11 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D8DA100161949DBA756ADE3D4559F24 /* Pods-SuperApi2_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SuperApi2_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4594CDC11899441FCFA7486E789B006D /* Pods-SuperApi2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SuperApi2_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5A6F180715480C37CE3B519CC13740D4 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		4CA4D0401F06912400F588FF /* TestClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
 		5FA76A0C179EC2A6378D7BAC8497618A /* Pods-SuperApi2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SuperApi2_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		618C47D4742D0F4AAF980DA9104D5A0F /* Pods-SuperApi2_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SuperApi2_Example.modulemap"; sourceTree = "<group>"; };
+		618C47D4742D0F4AAF980DA9104D5A0F /* Pods-SuperApi2_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SuperApi2_Example.modulemap"; sourceTree = "<group>"; };
 		6461D48DA5B153165399AA78DA375C1E /* Pods-SuperApi2_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SuperApi2_Example-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		68A8CE206C7D5C292D5F7D3283056312 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,18 +47,18 @@
 		6D26D55323F65F677EF5A765B4B85C9E /* SuperApi2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SuperApi2-umbrella.h"; sourceTree = "<group>"; };
 		72E5F9A407263E1881A601EBCD36AC28 /* Pods-SuperApi2_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SuperApi2_Example-frameworks.sh"; sourceTree = "<group>"; };
 		72EE194728B88783F46976561EE74614 /* SuperApi2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SuperApi2.xcconfig; sourceTree = "<group>"; };
-		7374B54E23DAA445A7852DB0452ACF15 /* Pods_SuperApi2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SuperApi2_Example.framework; path = "Pods-SuperApi2_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7374B54E23DAA445A7852DB0452ACF15 /* Pods_SuperApi2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperApi2_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		813AA77D42D2AB29FD3D7EC9FF107DB9 /* Pods-SuperApi2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SuperApi2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		84C74790C4A3A5773CCCAF27A25CFF91 /* Pods-SuperApi2_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SuperApi2_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		8D7221406AC55A5740A80676BC905955 /* Pods-SuperApi2_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SuperApi2_Example-umbrella.h"; sourceTree = "<group>"; };
 		926EA95F546112C2C419C9E796DCA5A5 /* Pods-SuperApi2_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SuperApi2_Example-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97C63031D9788FD0EC46F8F39E9A076D /* Pods-SuperApi2_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SuperApi2_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A35C1043CDBBE3DC7B746491AA35FF8B /* Pods-SuperApi2_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SuperApi2_Tests-umbrella.h"; sourceTree = "<group>"; };
-		AE44F31FF5561BF7381A96D1ED16D52D /* Pods-SuperApi2_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SuperApi2_Tests.modulemap"; sourceTree = "<group>"; };
-		C3B988406535FC6158CA20BD9D93B5AB /* SuperApi2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SuperApi2.modulemap; sourceTree = "<group>"; };
+		AE44F31FF5561BF7381A96D1ED16D52D /* Pods-SuperApi2_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SuperApi2_Tests.modulemap"; sourceTree = "<group>"; };
+		C3B988406535FC6158CA20BD9D93B5AB /* SuperApi2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SuperApi2.modulemap; sourceTree = "<group>"; };
 		DDD9CBF03565AA98D8996B91ECEA3DB8 /* Pods-SuperApi2_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SuperApi2_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DF5DD05FD5DEF190E65898726FE85FE3 /* Pods_SuperApi2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SuperApi2_Tests.framework; path = "Pods-SuperApi2_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5DD05FD5DEF190E65898726FE85FE3 /* Pods_SuperApi2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperApi2_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C2916305E0377E9FB7A01FDC06E857 /* SuperApi2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SuperApi2-prefix.pch"; sourceTree = "<group>"; };
 		F716EB3F8AF94F0D6490D15A5B36147E /* Pods-SuperApi2_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SuperApi2_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F9596037758DE160EFAD8B9A0908D895 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -187,7 +187,6 @@
 			children = (
 				CFAEF28EBBD5769358B31E352F468A59 /* Classes */,
 			);
-			name = SuperApi2;
 			path = SuperApi2;
 			sourceTree = "<group>";
 		};
@@ -210,9 +209,8 @@
 		CFAEF28EBBD5769358B31E352F468A59 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				5A6F180715480C37CE3B519CC13740D4 /* ReplaceMe.swift */,
+				4CA4D0401F06912400F588FF /* TestClass.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -314,6 +312,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					4167C80657A8FBCCFD7C1D1FD8D10D04 = {
+						LastSwiftMigration = 0830;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -347,7 +350,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBADAC5A7FE19F6A4749078EA3A79D83 /* ReplaceMe.swift in Sources */,
 				6F2B7A7CD83241F24F48E661F2E6F713 /* SuperApi2-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +358,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CA4D0411F06912400F588FF /* TestClass.swift in Sources */,
 				846CA3693CCFC49A64313DB8C0506B58 /* Pods-SuperApi2_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,6 +505,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4594CDC11899441FCFA7486E789B006D /* Pods-SuperApi2_Example.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -647,6 +651,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DDD9CBF03565AA98D8996B91ECEA3DB8 /* Pods-SuperApi2_Example.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

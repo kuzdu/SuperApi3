@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                    This is a description of a pod that I never will use. lalalalalalalal la llalala lal la la la la la l alal l ala ll a ala l al a
                        DESC
 
   s.homepage         = 'https://github.com/kuzdu/SuperApi2'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'kuzdu' => 'michael.rothkegel@invers.com' }
+  s.author           = { 'kuzdu' => 'rothkegel.michael@gmail.com' }
   s.source           = { :git => 'https://github.com/kuzdu/SuperApi2.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'SuperApi2/Classes/**/*'
   
@@ -37,6 +37,7 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.frameworks = 'UIKit'
+    s.dependency 'Alamofire'
+    s.dependency 'ObjectMapper'
 end
